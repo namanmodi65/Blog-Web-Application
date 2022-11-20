@@ -1,0 +1,16 @@
+.footer-container{
+  height: 100px;
+  background: linear-gradient(to right, rgb(182, 30, 7), #7c1903);
+  display: flex;
+  justify-content: center;
+}
+.credit{
+  margin-left: 10px;
+margin-top: 50px;
+}
+
+.footer-image{
+  margin-top: 40px;
+  width: 40px;
+  height: 40px;
+}

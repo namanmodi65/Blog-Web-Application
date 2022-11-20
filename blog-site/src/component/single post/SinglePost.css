@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Xanh+Mono&display=swap');
+
+.singlePost-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-edit{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icon-edit:hover{
+    font-size: 20px;
+    margin-right: 10px;
+    color: green;
+    cursor: pointer;
+}
+.icon-delete{
+    font-size: 20px;
+    margin-left: 10px;
+    /* color: red; */
+    cursor: pointer;
+}
+.icon-delete:hover{
+    font-size: 20px;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+}
+.description{
+    margin: 12px;
+}
+.date span{
+    color: gray;
+}
+
+.username p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+.username p:hover{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(59, 108, 241);
+}
+
+input{
+    font-size: 40px;
+    border: none;
+}
+textarea{
+    width: 100%;
+    height: 250px;
+    margin: 12px;
+    padding: 12px;
+    border: none;
+    resize: none;
+
+}
+button{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
